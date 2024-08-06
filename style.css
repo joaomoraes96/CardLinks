@@ -87,16 +87,15 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-in 0.2s forwards;
+  animation: slide-back 0.2s forwards;
 }
 
 .light #switch button {
   animation: slide-in 0.2s forwards;
 }
 
-#witch button:hover {
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
-
 }
 
 #switch span {
